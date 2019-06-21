@@ -1,0 +1,6 @@
+C:\Users\ebaugh\source\repos\GiftAidCalculator\GiftAidCalculator\bin\Debug\GiftAidCalculator.exe.config
+C:\Users\ebaugh\source\repos\GiftAidCalculator\GiftAidCalculator\bin\Debug\GiftAidCalculator.exe
+C:\Users\ebaugh\source\repos\GiftAidCalculator\GiftAidCalculator\bin\Debug\GiftAidCalculator.pdb
+C:\Users\ebaugh\source\repos\GiftAidCalculator\GiftAidCalculator\obj\Debug\GiftAidCalculator.TestConsole.csproj.CoreCompileInputs.cache
+C:\Users\ebaugh\source\repos\GiftAidCalculator\GiftAidCalculator\obj\Debug\GiftAidCalculator.exe
+C:\Users\ebaugh\source\repos\GiftAidCalculator\GiftAidCalculator\obj\Debug\GiftAidCalculator.pdb

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+using GiftAidCalculator.Service;
 using GiftAidCalculator.TestConsole.Service;
 using Moq;
 using NUnit.Framework;
@@ -65,7 +67,7 @@ namespace GiftAidCalculator.Tests
             taxRateProvider.Setup(x => x.GetTaxRate()).Returns(0.2M);
 
             var giftAidCalculator = new DefaultGiftAidCalculator(taxRateProvider.Object);
-            Assert.AreEqual(expectedSupplementAmount, giftAidCalculator.GetGiftAidSupplementAmount(giftAidAmount, (DonationEventType) 9999));
+            Assert.AreEqual(expectedSupplementAmount, giftAidCalculator.GetGiftAidSupplementAmount(giftAidAmount, (DonationEventType)9999));
         }
     }
 }
